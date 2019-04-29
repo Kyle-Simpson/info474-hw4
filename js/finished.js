@@ -135,7 +135,7 @@
         div.html("Location: " + d.location + "<br/>" +
           "Year: " + d.time + "<br/>" +
           "Population: " + numberWithCommas(d["pop_mlns"] * 1000000) + "<br/>" +
-          "Fertility: " + d.time + "<br/>" +
+          "Fertility: " + d["fertility_rate"] + "<br/>" +
           "Life Expectancy: " + d["life_expectancy"]
         )
           .style("left", (d3.event.pageX) + "px")
